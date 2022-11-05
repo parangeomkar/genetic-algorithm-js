@@ -1,0 +1,24 @@
+{
+  "name": "genetic-algorithm-js",
+  "version": "1.0.0",
+  "description": "Genetic Algorithm in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parangeomkar/genetic-algorithm-js.git"
+  },
+  "keywords": [
+    "Genetic",
+    "Algorithm"
+  ],
+  "author": "Omkar Parange",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parangeomkar/genetic-algorithm-js/issues"
+  },
+  "homepage": "https://github.com/parangeomkar/genetic-algorithm-js#readme"
+}
