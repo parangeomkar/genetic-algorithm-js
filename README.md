@@ -32,7 +32,7 @@ let solution = ga.optimize();
 ```
 
 
-### Start the server
+### Run project
 ```bash
   npm run start
 ```
