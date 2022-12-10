@@ -3,18 +3,18 @@ Created this library to be able to run parametric optimization in browser and se
 
 ## Run Locally
 
-### Clone the project
+#### Clone the project
 ```bash
   git clone https://github.com/parangeomkar/genetic-algorithm-js.git
 ```
 
-### Go to the project directory
+#### Go to the project directory
 
 ```bash
   cd genetic-algorithm-js
 ```
 
-### Configure GA instance
+#### Configure GA instance
 ```bash
 let config = {
   numParams,
@@ -32,13 +32,13 @@ let solution = ga.optimize();
 ```
 
 
-### Run project
+#### Run project
 ```bash
   npm run start
 ```
 
 
-### Fitness function
+#### Fitness function
 The fitness function depends on the type of optimization problem.
 For function approximation, a simple MSE can be used.
 ```bash
@@ -51,7 +51,7 @@ fitnessFn = (params) => {
 
 
 
-### Constraints
+#### Constraints
 The constraints on upper and lower values of parameters can be specified
 individually. For example, an optimization problem with 3 parameters the
 constraints can be defined as follows,
