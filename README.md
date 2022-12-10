@@ -5,21 +5,16 @@ Created this library to be able to run parametric optimization in browser and se
 
 ### Clone the project
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/parangeomkar/genetic-algorithm-js.git
 ```
 
 ### Go to the project directory
 
 ```bash
-  cd asd
+  cd genetic-algorithm-js
 ```
 
-### Start the server
-```bash
-  npm run start
-```
-
-### Configure GA
+### Configure GA instance
 ```bash
 let config = {
   numParams,
@@ -34,6 +29,12 @@ let config = {
 
 let ga = new GA(config);
 let solution = ga.optimize();  
+```
+
+
+### Start the server
+```bash
+  npm run start
 ```
 
 
