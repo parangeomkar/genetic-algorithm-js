@@ -40,9 +40,9 @@ let solution = ga.optimize();
 
 #### Fitness function
 The fitness function depends on the type of optimization problem.
-For a regression problem, a simple MSE can be used.
+For example a regression problem can use MSE.
 ```bash
-fitnessFn = (params) => {
+let fitnessFn = (params) => {
   let predictedOut = someCostFunction(params);
   return Math.pow(measuredOutput - predictedOut, 2);
 }
